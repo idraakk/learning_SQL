@@ -1,4 +1,24 @@
-# SQL Notes
+# SQL Notes by IDRAAK
+
+## Index
+
+- [Database Operations](#database-operations)
+- [Creating and Using a Database](#creating-and-using-a-database)
+- [Table Schema (Design)](#table-schema-design)
+- [Viewing Databases and Tables](#viewing-databases-and-tables)
+- [Dropping a Table](#dropping-a-table)
+- [Creating a Table with Constraints](#creating-a-table-with-constraints)
+  - [Constraints](#constraints)
+- [Inserting Data into a Table](#inserting-data-into-a-table)
+- [Selecting Data](#selecting-data)
+- [Creating a Table with Foreign Key](#creating-a-table-with-foreign-key)
+- [Selecting Specific Data](#selecting-specific-data)
+- [Clauses and Operators](#clauses-and-operators)
+  - [Clauses](#clauses)
+  - [General Order of Clauses](#general-order-of-clauses)
+- [Examples of Select Statements](#examples-of-select-statements)
+- [Aggregate Functions](#aggregate-functions)
+  - [Example](#example)
 
 ## Database Operations
 
@@ -147,7 +167,7 @@ SELECT * FROM student WHERE name NOT IN ("Arjun", "Karan");
 SELECT * FROM student LIMIT 3;  
 SELECT * FROM student WHERE roll_no > 101 LIMIT 1;  
 SELECT * FROM student WHERE roll_no > 101 ORDER BY roll_no ASC LIMIT 2;  
-```sql
+```
 
 ## Aggregate Functions
 
